@@ -1,0 +1,30 @@
+{
+  "name": "svarog",
+  "version": "0.0.1",
+  "description": "A simple markdown editor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntJanus/svarog.git"
+  },
+  "keywords": [],
+  "author": "Antonin Januska <@antjanus> (https://antjanus.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntJanus/svarog/issues"
+  },
+  "homepage": "https://github.com/AntJanus/svarog#readme",
+  "devDependencies": {
+    "electron": "1.8.4",
+    "parcel-bundler": "1.7.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-preact": "1.1.0",
+    "postcss-modules": "1.1.0",
+    "preact": "8.2.7"
+  }
+}

@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #3f3f3f;
+}
+
+.app-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas: "header header"
+                       "editor renderer";
+  grid-column-gap: 15px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.editor-editor textarea {
+  width: 100%;
+  height: 100%;
+  grid-area: editor;
+}
+
+.editor-renderer {
+  width: 100%;
+  height: 100%;
+  grid-area: renderer;
+}
